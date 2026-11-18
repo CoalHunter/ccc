@@ -4,6 +4,144 @@
     "tagline": "Exclusive Swing Intelligence",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-18T22:34:28.920653",
-  "stocks": []
+  "generated_at": "2026-11-18T23:00:43.984498",
+  "stocks": [
+    {
+      "symbol": "ITMG",
+      "full_symbol": "ITMG.JK",
+      "name": "Indo Tambangraya Megah Tbk",
+      "sector": "Energy",
+      "industry": "Thermal Coal",
+      "price": 24575.0,
+      "prev_close": 24350.0,
+      "change_pct": 0.92,
+      "volume": 1188500,
+      "avg_volume_20d": 2008510,
+      "high_52w": 29503.36,
+      "low_52w": 20085.35,
+      "score": 34,
+      "signals": {
+        "rsi": 0,
+        "divergence": 0,
+        "bb": 0,
+        "macd": 6,
+        "accumulation": 9,
+        "atr_squeeze": 0,
+        "ma": 6,
+        "pivot": 0,
+        "fib": 8,
+        "weekly": 5
+      },
+      "reasons": [
+        "MACD momentum meningkat",
+        "Indikasi akumulasi ringan",
+        "Dekat MA20 (dynamic support)",
+        "Dekat Fibonacci level Rp24,794",
+        "Weekly trend mendukung"
+      ],
+      "accumulation": {
+        "score": 40,
+        "reasons": [
+          "OBV uptrend (indikasi akumulasi)"
+        ],
+        "vol_ratio": 0.68
+      },
+      "plan": {
+        "recommendation": "WAIT",
+        "color": "#f44336",
+        "entry_zone": {
+          "low": 24237.0,
+          "high": 24575.0
+        },
+        "stop_loss": 23222.0,
+        "targets": {
+          "T1": {
+            "price": 26267.0,
+            "pct": 8.38
+          },
+          "T2": {
+            "price": 27282.0,
+            "pct": 12.56
+          },
+          "T3": {
+            "price": 28804.0,
+            "pct": 18.84
+          }
+        },
+        "risk_reward": 3.0,
+        "max_loss_pct": 4.19,
+        "atr": 676.79
+      },
+      "analysis_date": "2026-11-18 23:00 WIB",
+      "disclaimer": "\u26a0\ufe0f Bukan nasihat keuangan. Riset mandiri & kelola risiko."
+    },
+    {
+      "symbol": "PTBA",
+      "full_symbol": "PTBA.JK",
+      "name": "Bukit Asam (Persero) Tbk.",
+      "sector": "Energy",
+      "industry": "Thermal Coal",
+      "price": 3010.0,
+      "prev_close": 3100.0,
+      "change_pct": -2.9,
+      "volume": 16973100,
+      "avg_volume_20d": 37902055,
+      "high_52w": 3490.0,
+      "low_52w": 2121.09,
+      "score": 21,
+      "signals": {
+        "rsi": 0,
+        "divergence": 0,
+        "bb": 0,
+        "macd": 0,
+        "accumulation": 9,
+        "atr_squeeze": 4,
+        "ma": 0,
+        "pivot": 0,
+        "fib": 8,
+        "weekly": 0
+      },
+      "reasons": [
+        "Indikasi akumulasi ringan",
+        "Dekat Fibonacci level Rp2,967"
+      ],
+      "accumulation": {
+        "score": 40,
+        "reasons": [
+          "OBV uptrend (indikasi akumulasi)"
+        ],
+        "vol_ratio": 0.6
+      },
+      "plan": {
+        "recommendation": "WAIT",
+        "color": "#f44336",
+        "entry_zone": {
+          "low": 2944.0,
+          "high": 3010.0
+        },
+        "stop_loss": 2747.0,
+        "targets": {
+          "T1": {
+            "price": 3338.0,
+            "pct": 13.38
+          },
+          "T2": {
+            "price": 3535.0,
+            "pct": 20.07
+          },
+          "T3": {
+            "price": 3830.0,
+            "pct": 30.1
+          }
+        },
+        "risk_reward": 3.0,
+        "max_loss_pct": 6.69,
+        "atr": 131.43
+      },
+      "analysis_date": "2026-11-18 23:00 WIB",
+      "disclaimer": "\u26a0\ufe0f Bukan nasihat keuangan. Riset mandiri & kelola risiko."
+    }
+  ],
+  "errors": [],
+  "stale": false
 }
