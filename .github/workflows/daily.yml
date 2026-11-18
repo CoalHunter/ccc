@@ -2,7 +2,6 @@ name: Daily Coal Analysis
 
 on:
   schedule:
-    # Jam 16:30 WIB = 09:30 UTC (setelah market close)
     - cron: '30 9 * * 1-5'
   workflow_dispatch:
 
@@ -15,18 +14,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
-      
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Run analyzer
         run: python analyzer.py
-      
+
+      - name: Show result summary
+        run: |
+          python -c "
+          import json
+          d = json.load(open('data/result.json'))
+          print('Stocks:', len(d.get('stocks', [])))
+          print('Errors:', d.get('errors', []))
+          print('Stale:', d.get('stale', False))
+          "
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
