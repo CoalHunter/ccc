@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coal Capital Club — Exclusive Swing Intelligence</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">🏭</span>
+    <div>
+      <h1>Coal Capital Club</h1>
+      <span class="tagline">Exclusive Swing Intelligence</span>
+    </div>
+  </div>
+  <div class="top-right">
+    <span id="lastUpdate" class="meta">Loading...</span>
+    <button class="lang-btn" onclick="toggleLang()">EN / ID</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h2 data-i18n="hero_title">The 10-Point Confluence System</h2>
+    <p data-i18n="hero_desc">Analisis konfluensi 10 indikator • Deteksi akumulasi bandar • ATR-based risk management</p>
+    <div class="legend">
+      <span class="badge strong">STRONG BUY ≥80</span>
+      <span class="badge buy">BUY ≥65</span>
+      <span class="badge watch">WATCHLIST ≥45</span>
+      <span class="badge wait">WAIT &lt;45</span>
+    </div>
+  </section>
+
+  <section id="stockGrid" class="grid"></section>
+
+  <footer class="footer">
+    <p data-i18n="disclaimer">⚠️ Ini bukan nasihat keuangan. Riset mandiri, kelola risiko, jangan all-in.</p>
+    <p>Powered by Python • Yahoo Finance • GitHub Actions</p>
+  </footer>
+</main>
+
+<!-- MODAL -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal()">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
