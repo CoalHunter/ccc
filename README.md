@@ -1,5 +1,6 @@
 # 🏭 Coal Capital Club
-workflows: 
+Start Workflows: 
+https://github.com/CoalHunter/ccc/actions/workflows/daily.yml
 
 **Exclusive Swing Trading Intelligence for Indonesian Coal Giants**
 
