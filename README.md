@@ -2,6 +2,8 @@
 Start Workflows: 
 https://github.com/CoalHunter/ccc/actions/workflows/daily.yml
 
+website: https://coalhunter.github.io/ccc
+
 **Exclusive Swing Trading Intelligence for Indonesian Coal Giants**
 
 Sistem analisis otomatis untuk **ITMG** dan **PTBA** menggunakan konfluensi 10 indikator teknikal + deteksi akumulasi bandar.
