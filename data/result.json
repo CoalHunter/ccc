@@ -4,7 +4,7 @@
     "tagline": "Exclusive Swing Intelligence",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-19T18:33:57.660752",
+  "generated_at": "2026-11-20T17:57:28.904201",
   "stocks": [
     {
       "symbol": "ITMG",
@@ -13,10 +13,10 @@
       "sector": "Energy",
       "industry": "Thermal Coal",
       "price": NaN,
-      "prev_close": 24575.0,
+      "prev_close": 24200.0,
       "change_pct": NaN,
-      "volume": 1871100,
-      "avg_volume_20d": 2018545,
+      "volume": 344600,
+      "avg_volume_20d": 1936885,
       "high_52w": 29503.36,
       "low_52w": 20085.35,
       "score": 0,
@@ -36,7 +36,7 @@
       "accumulation": {
         "score": 0,
         "reasons": [],
-        "vol_ratio": 0.68
+        "vol_ratio": 0.57
       },
       "plan": {
         "recommendation": "WAIT",
@@ -64,7 +64,7 @@
         "max_loss_pct": NaN,
         "atr": NaN
       },
-      "analysis_date": "2026-11-19 18:33 WIB",
+      "analysis_date": "2026-11-20 17:57 WIB",
       "disclaimer": "\u26a0\ufe0f Bukan nasihat keuangan. Riset mandiri & kelola risiko."
     },
     {
@@ -74,18 +74,18 @@
       "sector": "Energy",
       "industry": "Thermal Coal",
       "price": NaN,
-      "prev_close": 3010.0,
+      "prev_close": 2980.0,
       "change_pct": NaN,
-      "volume": 15568500,
-      "avg_volume_20d": 36333690,
+      "volume": 9203100,
+      "avg_volume_20d": 33917255,
       "high_52w": 3490.0,
       "low_52w": 2121.09,
-      "score": 4,
+      "score": 3,
       "signals": {
-        "rsi": 4,
+        "rsi": 0,
         "divergence": 0,
         "bb": 0,
-        "macd": 0,
+        "macd": 3,
         "accumulation": 0,
         "atr_squeeze": 0,
         "ma": 0,
@@ -97,7 +97,7 @@
       "accumulation": {
         "score": 0,
         "reasons": [],
-        "vol_ratio": 0.48
+        "vol_ratio": 0.44
       },
       "plan": {
         "recommendation": "WAIT",
@@ -125,7 +125,7 @@
         "max_loss_pct": NaN,
         "atr": NaN
       },
-      "analysis_date": "2026-11-19 18:33 WIB",
+      "analysis_date": "2026-11-20 17:57 WIB",
       "disclaimer": "\u26a0\ufe0f Bukan nasihat keuangan. Riset mandiri & kelola risiko."
     }
   ],
